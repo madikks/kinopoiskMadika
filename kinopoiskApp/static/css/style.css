@@ -1,0 +1,18 @@
+.banner{
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))  , url('../img/main.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.banner p{
+    width: 50%;
+    text-align: justify;
+}
+
+.all-movies, .top-movies, .movie-detail{
+    padding: 70px;
+}
